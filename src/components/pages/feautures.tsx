@@ -69,7 +69,7 @@ export default function BentoFeatures() {
             className="w-full h-auto rounded-lg border border-black/10"
           />
         </div>
-        <div className="mx-auto max-w-7xl sm:text-center py-36 border-x border-zinc-200">
+        <div className="mx-auto max-w-7xl sm:text-center py-36 border-x border-zinc-200 -mb-24">
           <p className="text-center mt-2 text-4xl font-medium tracking-tight text-pretty text-black sm:text-5xl sm:text-balance">
             “This feels like cheating.”
           </p>

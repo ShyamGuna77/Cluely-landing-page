@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function UndetectableSection() {
   return (
-    <section className="bg-[#181B20] py-[120px] px-6 mt-[-100px]">
+    <section className="bg-[#181B20] py-[120px] px-6 mt-[-40px]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-white mb-4">

@@ -60,7 +60,7 @@ export default function StickyScrollRevealDemo() {
   return (
     <div className="w-full bg-white">
       <div className="py-16 text-center max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-black mb-8">
+        <h2 className="text-4xl font-bold text-black mb-4">
           Three ways Cluely can think
         </h2>
       </div>

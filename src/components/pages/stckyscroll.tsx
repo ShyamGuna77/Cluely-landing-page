@@ -68,10 +68,10 @@ export const StickyScroll = ({
                 }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
               >
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                <h3 className="text-3xl font-bold text-center text-gray-900 mb-4">
                   {item.title}
                 </h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 leading-relaxed p-4">
                   {item.description}
                 </p>
               </motion.div>

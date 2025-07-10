@@ -139,45 +139,27 @@
   }
 }
 
-@keyframes horizontal-wave {
+@keyframes horizontal-wave-yoyo {
   0% {
     transform: translateY(0);
-    background-color: white;
-    opacity: 1;
-  }
-  40% {
-    background-color: black;
-    opacity: 0.7;
-  }
-  60% {
-    background-color: white;
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(100px);
-    background-color: white;
     opacity: 0;
-  }
-}
-
-@keyframes horizontal-wave-reverse {
-  0% {
-    transform: translateY(100px);
     background-color: white;
+  }
+  10% {
     opacity: 1;
   }
-  40% {
-    background-color: black;
-    opacity: 0.7;
-  }
-  60% {
+  50% {
+    transform: translateY(100px);
+    opacity: 1;
     background-color: white;
+  }
+  90% {
     opacity: 1;
   }
   100% {
     transform: translateY(0);
-    background-color: white;
     opacity: 0;
+    background-color: white;
   }
 }
 
@@ -198,12 +180,10 @@
 
   .animate-hypnotize {
     animation: hypnotize 1s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    /* bounce effect */
+   
   }
-  .animate-horizontal-wave {
-    animation: horizontal-wave 1.5s infinite linear;
-  }
-  .animate-horizontal-wave-reverse {
-    animation: horizontal-wave-reverse 1.5s infinite linear;
+  .animate-horizontal-wave-yoyo {
+    animation: horizontal-wave-yoyo 2.5s infinite
+      cubic-bezier(0.68, -0.6, 0.32, 1.6);
   }
 }

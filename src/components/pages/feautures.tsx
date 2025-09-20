@@ -15,9 +15,9 @@ export default function BentoFeatures() {
         </h2>
       </div>
 
-      {/* Two-column grid for first two cards */}
+    
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* First card */}
+       
         <div className="card p-4 md:p-8">
           <div className="mb-4 md:mb-6">
             <Image
@@ -71,7 +71,7 @@ export default function BentoFeatures() {
         </div>
         <div className="mx-auto max-w-7xl sm:text-center py-16 px-4 border-x border-zinc-200 -mb-12 md:py-36 md:px-6 md:-mb-24">
           <p className="text-center mt-2 text-2xl font-medium tracking-tight text-pretty text-black sm:text-4xl md:text-5xl sm:text-balance">
-            "This feels like cheating."
+            This feels like cheating.
           </p>
           <a className="w-[150px] md:w-[170px] mx-auto mt-6 md:mt-8 flex group items-center gap-x-2 rounded-full bg-black px-4 md:px-6 py-2 md:py-2.5 text-base md:text-lg font-semibold text-white shadow-xs outline-none hover:-translate-y-0.5 transition hover:scale-[100.5%] hover:bg-black/90">
             We agree.

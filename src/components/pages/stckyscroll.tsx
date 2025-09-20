@@ -40,11 +40,14 @@ export const StickyScroll = ({
   });
 
   return (
-    <motion.div className="relative h-[300vh] py-[10vh] px-6" ref={ref}>
-      <div className="max-w-[1200px] mx-auto sticky top-10">
+    <motion.div
+      className="relative h-[250vh] py-[5vh] px-4 md:h-[300vh] md:py-[10vh] md:px-6"
+      ref={ref}
+    >
+      <div className="max-w-xl mx-auto sticky top-10 md:max-w-[1200px]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Sticky Image Container */}
-          <div className="h-[500px] lg:block">
+          <div className="h-[300px] md:h-[500px] lg:block">
             <div
               className={cn(
                 "h-full w-full overflow-hidden rounded-lg border border-black/10 bg-white",
@@ -64,14 +67,14 @@ export const StickyScroll = ({
                 initial={{ opacity: 0, y: 100 }}
                 animate={{
                   opacity: activeCard === index ? 1 : 0,
-                  y: activeCard === index ? 0 : (index < activeCard ? -100 : 100),
+                  y: activeCard === index ? 0 : index < activeCard ? -100 : 100,
                 }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
               >
-                <h3 className="text-3xl font-bold text-center text-gray-900 mb-4">
+                <h3 className="text-2xl font-bold text-center text-gray-900 mb-2 md:text-3xl md:mb-4">
                   {item.title}
                 </h3>
-                <p className="text-gray-600 leading-relaxed p-4">
+                <p className="text-sm text-gray-600 leading-relaxed p-2 md:text-base md:p-4">
                   {item.description}
                 </p>
               </motion.div>

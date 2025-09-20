@@ -59,7 +59,7 @@ export default function ScrollAwareNavbar() {
   const containerClasses = cn(
     "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
     "flex items-center justify-between transition-all duration-300",
-    scrollY > 50 ? "h-12 lg:h-14 px-6 sm:px-8 lg:px-10" : "h-16 lg:h-20"
+    scrollY > 50 ? "h-12 lg:h-14 px-6 sm:px-8 lg:px-10" : "h-14 lg:h-20"
   );
 
   const logoClasses = cn(

@@ -3,7 +3,6 @@ import React from "react";
 import { StickyScroll } from "./stckyscroll";
 import Image from "next/image";
 
-
 ///Hoorah/////
 const content = [
   {
@@ -59,8 +58,8 @@ const content = [
 export default function StickyScrollRevealDemo() {
   return (
     <div className="w-full bg-white">
-      <div className="py-16 text-center max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-black mb-4">
+      <div className="py-12 px-4 text-center max-w-4xl mx-auto md:py-16">
+        <h2 className="text-2xl font-bold text-black mb-3 md:text-4xl md:mb-4">
           Three ways Cluely can think
         </h2>
       </div>
